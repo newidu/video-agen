@@ -1,0 +1,14 @@
+{
+  "name": "ai-video-agent-modular-source",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original AI Video Agent source reorganized into ordered folders and files.",
+  "scripts": {
+    "build:skills": "node scripts/build-skills.js",
+    "check": "node scripts/build-skills.js && node scripts/check.js",
+    "serve": "node scripts/serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

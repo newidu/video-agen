@@ -1,0 +1,129 @@
+{
+  "original_file": "original/source.html",
+  "skill_count": 24,
+  "skill_order": [
+    "music-prompter/SKILL.md",
+    "tts-prompter/SKILL.md",
+    "tts-prompter/references/language_catalog.md",
+    "tts-prompter/references/voice_catalog.md",
+    "video-generation/SKILL.md",
+    "video-generation/capabilities/model-video-generation.md",
+    "video-generation/capabilities/transcription.md",
+    "video-generation/references/generated-video.md",
+    "video-generation/references/motion-graphics.md",
+    "video-generation/workflows/creative-shorts/00-preflight.md",
+    "video-generation/workflows/creative-shorts/01-concept-and-script.md",
+    "video-generation/workflows/creative-shorts/02-asset-design.md",
+    "video-generation/workflows/creative-shorts/03-shot-design.md",
+    "video-generation/workflows/creative-shorts/04-video-prompts.md",
+    "video-generation/workflows/creative-shorts/05-editing.md",
+    "video-generation/workflows/creative-shorts/README.md",
+    "video-generation/workflows/long-to-short.md",
+    "video-generation/workflows/marketing-growth.md",
+    "video-generation/workflows/motion-graphics.md",
+    "video-generation/workflows/narration-led.md",
+    "video-generation/workflows/product-launch.md",
+    "video-generation/workflows/slides-to-video.md",
+    "video-generation/workflows/talking-head.md",
+    "video-generation/workflows/ugc-video.md"
+  ],
+  "javascript_sections": [
+    {
+      "source_lines": [
+        334,
+        521
+      ],
+      "file": "src/canvas/primitives.js",
+      "description": "Canvas primitives and text rendering"
+    },
+    {
+      "source_lines": [
+        522,
+        970
+      ],
+      "file": "src/canvas/scene-engine.js",
+      "description": "Edit model, scene parsing, element rendering and frame rendering"
+    },
+    {
+      "source_lines": [
+        971,
+        1966
+      ],
+      "file": "src/editor/interaction.js",
+      "description": "Selection, crop, playback, panels, export, project persistence and input wiring"
+    },
+    {
+      "source_lines": [
+        1967,
+        2018
+      ],
+      "file": "src/features/fonts.js",
+      "description": "Font registration and font editing"
+    },
+    {
+      "source_lines": [
+        2019,
+        2527
+      ],
+      "file": "src/features/audio-music.js",
+      "description": "Music, beat detection, audio and sound-effect features"
+    },
+    {
+      "source_lines": [
+        2528,
+        2920
+      ],
+      "file": "src/editor/history-and-audit.js",
+      "description": "Undo/redo, snapshots, scene surgery and layout QA"
+    },
+    {
+      "source_lines": [
+        2921,
+        3368
+      ],
+      "file": "src/agent/session-and-skills.js",
+      "description": "Agent session, credentials, chat UI, skill selection and system prompt"
+    },
+    {
+      "source_lines": [
+        3369,
+        3951
+      ],
+      "file": "src/agent/tools.js",
+      "description": "Agent tool implementations, tool catalog and JSON tool schema"
+    },
+    {
+      "source_lines": [
+        3952,
+        4189
+      ],
+      "file": "src/agent/model-streaming-context.js",
+      "description": "Model streaming, task list and context compaction"
+    },
+    {
+      "source_lines": [
+        4190,
+        4373
+      ],
+      "file": "src/agent/loop.js",
+      "description": "Agent execution loop and multi-step tool orchestration"
+    },
+    {
+      "source_lines": [
+        4374,
+        4525
+      ],
+      "file": "src/agent/spec-bridge-and-boot.js",
+      "description": "Spec updates, media upload bridge and final boot wiring"
+    }
+  ],
+  "ui_files": [
+    "ui/index.html",
+    "ui/styles/base.css"
+  ],
+  "notes": [
+    "Original source remains preserved unchanged.",
+    "Embedded skill files were extracted as individual Markdown files.",
+    "The UI loads classic scripts in strict order to preserve shared globals."
+  ]
+}

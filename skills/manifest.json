@@ -1,0 +1,28 @@
+{
+  "order": [
+    "music-prompter/SKILL.md",
+    "tts-prompter/SKILL.md",
+    "tts-prompter/references/language_catalog.md",
+    "tts-prompter/references/voice_catalog.md",
+    "video-generation/SKILL.md",
+    "video-generation/capabilities/model-video-generation.md",
+    "video-generation/capabilities/transcription.md",
+    "video-generation/references/generated-video.md",
+    "video-generation/references/motion-graphics.md",
+    "video-generation/workflows/creative-shorts/00-preflight.md",
+    "video-generation/workflows/creative-shorts/01-concept-and-script.md",
+    "video-generation/workflows/creative-shorts/02-asset-design.md",
+    "video-generation/workflows/creative-shorts/03-shot-design.md",
+    "video-generation/workflows/creative-shorts/04-video-prompts.md",
+    "video-generation/workflows/creative-shorts/05-editing.md",
+    "video-generation/workflows/creative-shorts/README.md",
+    "video-generation/workflows/long-to-short.md",
+    "video-generation/workflows/marketing-growth.md",
+    "video-generation/workflows/motion-graphics.md",
+    "video-generation/workflows/narration-led.md",
+    "video-generation/workflows/product-launch.md",
+    "video-generation/workflows/slides-to-video.md",
+    "video-generation/workflows/talking-head.md",
+    "video-generation/workflows/ugc-video.md"
+  ]
+}
